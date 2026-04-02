@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Mi Portafolio Personal | Hugo</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+        <h1>Mi Portafolio Personal | Hugo</h1>
+    </header>
+
+    <!-- Barra de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        
+    <!-- Seccion sobre mi breve descripcion de como se va conformando el portafolio-->    
+<section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <div class="sobre-mi-contenido">
+                <img src="img/mi-foto.jpg" alt="Foto de perfil de Hugo">
+                <p>Soy una persona apasionada por el diseño espacial y la tecnología. Empecea trabajar  en el modelado y renderizado para estudios de arquitectura, donde perfeccioné mi atención al detalle estructural. Actualmente, me encuentro inmerso en la Ingeniería de Software, buscando fusionar la precisión de la arquitectura con el desarrollo de soluciones tecnológicas innovadoras, utilizando herramientas como Figma, Android Studio y Visual Studio Code. Mi misión es crear experiencias digitales funcionales.</p>
+            </div>
+        </section>
+<!-- Seccion de proyectos destacados, con imagenes y breve descripcion de cada uno de los que trabaje o estoy trabajando actualmente buscando que sea simple pera que se resalten cuando se enfocan en-->
+        <section id="tarjetas">
+            <h2>Proyectos Destacados</h2>
+            <div class="contenedor-tarjetas">
+                <article class="tarjeta">
+                    <img src="img/Espacios Interiores (1).png" alt="Render de una vivienda unifamiliar">
+                    <h3>Vivienda Unifamiliar</h3>
+                    <p>Trabajo de modelado y diseño arquitectónico detallado para este espacio de encuentro y calidad.</p>
+                </article>
+                
+                <article class="tarjeta">
+                    <img src="img/se price2.png" alt="Diseño para la Clínica Seprice">
+                    <h3>Clínica Seprice - Trabajo final IFTS DSOO</h3>
+                    <p>Desarrollo y proyección estructural enfocada en la funcionalidad y flujo de espacios de salud.</p>
+                </article>
+
+                <article class="tarjeta">
+                    <img src="img/fotografia.jpg" alt="fotografía arquitectónica ">
+                    <h3>Fotografía Arquitectónica -Templo de Santo Domingo</h3>
+                    <p>Exploración de la luz, la forma y la textura en espacios urbanos y estructuras modernas. Una mirada personal sobre el diseño espacial.</p>
+                </article>
+            </div>
+        </section>
+
+
+<!--me gustaria cambiar esta seccion a futuro siento que no estoy tan avanzado en el tema de la programacion como para mostrar proyectos relacionados, pero me gustaria mostrar mis habilidades y herramientas que manejo actualmente y las que me gustaria aprender a futuro, para que se vea un poco mas completo el portafolio y se resalte mas la parte de diseño y modelado que es lo que mas me gusta hacer actualmente, pero sin dejar de lado la parte de programacion que es lo que estoy estudiando actualmente.-->        
+<section id="habilidades">
+            <h2>Mis Habilidades e Intereses</h2>
+            
+            <div class="grid-habilidades">
+                <div class="card-habilidad">
+                    <h3>Diseño y Modelado</h3>
+                    <div class="grupo-tags">
+                        <span class="tag">Archicad</span>
+                        <span class="tag">Figma</span>
+                        <span class="tag">D5 Render</span>
+                    </div>
+                </div>
+
+                <div class="card-habilidad">
+                    <h3>Se un poco de: </h3>
+                    <div class="grupo-tags">
+                        <span class="tag">Visual Studio Code</span>
+                        <span class="tag">Android Studio</span>
+                        <span class="tag">HTML & CSS</span>
+                        <span class="tag">Node.js</span>
+                    </div>
+                </div>
+
+                <div class="card-habilidad">
+                    <h3>Me gustaria aprender</h3>
+                        <div class="grupo-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Cloude code</span>
+                        <span class="tag">Testing</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-- Seccion de peliculas y series favoritas, con imagenes y breve descripcion de cada una de las que me gustaria destacar, buscando que se resalten cuando se enfocan en cada una de ellas-->
+        <section id="peliculas">
+            <h2>Películas / Series Favoritas</h2>
+            <div class="contenedor-peliculas">
+                <article class="pelicula">
+                    <h3>El Señor de los Anillos</h3>
+                    <img src="img/rrt.png" alt="Poster de El Señor de los Anillos">
+                    <p>Una obra maestra de la fantasía épica..</p>
+                </article>
+                <article class="pelicula">
+                    <h3>Mr. Robot</h3>
+                    <img src="img/mrrobot.jpg" alt="Mr. Robot">
+                    <p>Un clásico indiscutido para cualquier apasionado por la tecnología y la programación.</p>
+                </article>
+                <article class="pelicula">
+                    <h3>Better Call Saul</h3>
+                    <img src="img/bcalls.jpg" alt="Better call Saul">
+                    <p>Una serie que explora el drama y la pasion por la ética en el mundo del derecho.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="#" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+        <section id="enlaces-profesionales">
+            <h2>Encuéntrame en:</h2>
+            <div class="contenedor-enlaces">
+                <a href="https://github.com/" target="_blank" class="boton-profesional" rel="noopener noreferrer">
+                    GitHub
+                </a>
+                
+                <a href="https://ar.linkedin.com/" target="_blank" class="boton-profesional" rel="noopener noreferrer">
+                    LinkedIn
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+<footer>
+        <p>&copy; Hugo, 2026 &bull; Estudiante de Desarrollo de Software &bull;  San Juan, Argentina</p>
+    </footer>
+    </body>
+</html>
