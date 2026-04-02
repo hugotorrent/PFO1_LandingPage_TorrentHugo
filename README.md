@@ -53,5 +53,5 @@ Este repositorio contiene el Trabajo Práctico (TP) correspondiente a la Prácti
 - [x] Se añadieron comentarios adicionales donde se describan decisiones de diseño o la lógica de implementación.
 
 ---
-**URL de GitHub Repository:** ([link público final](https://github.com/hugotorrent/PFO1_LandingPage_TorrentHugo))
-**URL del proyecto Vercel:** ([ link público final](https://pfo-1-landing-page-torrent-hugo.vercel.app/))
+**URL de GitHub Repository:** ([link Repositoryl](https://github.com/hugotorrent/PFO1_LandingPage_TorrentHugo))
+**URL del proyecto Vercel:** ([link Vercel](https://pfo-1-landing-page-torrent-hugo.vercel.app/))
