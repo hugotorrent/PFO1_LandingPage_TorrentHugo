@@ -1,6 +1,6 @@
 # Práctica Formativa Obligatoria 1 - Landing Page de Portafolio Personal
 
-Este repositorio contiene el Trabajo Práctico (TP) correspondiente a la Práctica Formativa Obligatoria 1, desarrollada con HTML y CSS.
+Este repositorio contiene el Trabajo Práctico  correspondiente a la Práctica Formativa Obligatoria 1, desarrollada con HTML y CSS, para la materia Desarrollo de Sistemas Web (Front End).
 
 ## Checklist - Práctica Formativa Obligatoria 1
 
